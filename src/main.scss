@@ -1,0 +1,25 @@
+/* 应用级补充样式（Token 已由 WebVariable 提供，此处不做色板定义） */
+html,
+body,
+#app {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--main-text);
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--black);
+    color: var(--main-text-dark);
+  }
+}

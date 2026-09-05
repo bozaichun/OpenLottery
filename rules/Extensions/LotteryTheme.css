@@ -1,0 +1,54 @@
+/* 幸运大转盘 · 标准红金喜庆风（白/米黄扇区 + 红环金饰） */
+:root {
+  /* 主色：偏正红，避免过粉 */
+  --lottery-red: #e53935;
+  --lottery-red-deep: #c62828;
+  --lottery-red-dark: #b71c1c;
+  --lottery-red-soft: #ef5350;
+  --lottery-red-ring: #e53935;
+  --lottery-red-mist: #ffebee;
+
+  /* 金色点缀：暖金，降低刺眼感 */
+  --lottery-gold: #ffc107;
+  --lottery-gold-deep: #ff8f00;
+  --lottery-gold-soft: #ffe082;
+
+  /* 扇区：白 / 米黄（行业标准交替） */
+  --lottery-cream: #fff4d6;
+  --lottery-segment-white: #ffffff;
+  --lottery-segment-light: #fff4d6;
+
+  /* 文案：深红，白/米黄上都易读 */
+  --lottery-label: #b71c1c;
+
+  /* 中心钮 */
+  --lottery-hub: #e53935;
+  --lottery-hub-inner: #ef5350;
+  --lottery-hub-border: #ffc107;
+  --lottery-hub-text: #ffffff;
+  --lottery-pointer: #c62828;
+
+  /* 灯珠：金 / 白 / 暖橙，减少杂色 */
+  --lottery-bulb-a: #ffecb3;
+  --lottery-bulb-b: #ffffff;
+  --lottery-bulb-c: #ffb74d;
+  --lottery-bulb-d: #ffc107;
+
+  --lottery-spark-a: #ef5350;
+  --lottery-spark-b: #ffc107;
+  --lottery-spark-c: #ffb74d;
+
+  /* 兼容旧粉金变量名 */
+  --lottery-pink: var(--lottery-red-soft);
+  --lottery-pink-deep: var(--lottery-red);
+  --lottery-pink-soft: var(--lottery-red-mist);
+  --lottery-pink-ring: var(--lottery-red-ring);
+  --lottery-apricot: var(--lottery-cream);
+  --lottery-blush: var(--lottery-cream);
+
+  --lottery-wheel-size: 400px;
+  --lottery-ring-width: 28px;
+  --lottery-hub-size: 88px;
+  --lottery-shadow-lift: 0 14px 28px rgba(183, 28, 28, 0.28);
+  --lottery-shadow-edge: 0 4px 0 rgba(183, 28, 28, 0.18);
+}

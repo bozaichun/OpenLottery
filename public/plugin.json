@@ -1,0 +1,27 @@
+{
+  "main": "index.html",
+  "preload": "preload/services.js",
+  "logo": "logo.png",
+  "development": {
+    "main": "http://localhost:5173"
+  },
+  "features": [
+    {
+      "code": "lottery",
+      "explain": "幸运大转盘：活动促销 / 社交娱乐抽奖",
+      "cmds": [
+        "幸运大转盘",
+        "抽奖",
+        "转盘"
+      ]
+    },
+    {
+      "code": "lottery-config",
+      "explain": "配置抽奖奖品、颜色与中奖概率",
+      "cmds": [
+        "抽奖配置",
+        "奖品配置"
+      ]
+    }
+  ]
+}
